@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery_3.6.1.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Colorea las celdas</title>
+  </head>
+
+  <body onload="dibujarTabla()">
+    <h2>Pintar las celdas del tablero</h2>
+    <p>
+      Selecciona un color para empezar a pintar el tablero<br />
+      Haz click en cada celda para colorearla con el color seleccionado
+      <!--Para dejar de pintar haz clic en cualquier celda del mismo -->
+    </p>
+
+    <div class="tab-container">
+      <table class="chooseColor">
+        <tbody>
+          <tr>
+            <td id="rojo" onclick="elegirColor(id)"></td>
+            <td id="rosa" onclick="elegirColor(id)"></td>
+            <td id="naranja" onclick="elegirColor(id)"></td>
+            <td id="amarillo" onclick="elegirColor(id)"></td>
+            <td id="verde" onclick="elegirColor(id)"></td>
+            <td id="azul" onclick="elegirColor(id)"></td>
+            <td id="violeta" onclick="elegirColor(id)"></td>
+            <td id="marron" onclick="elegirColor(id)"></td>
+            <td id="gris" onclick="elegirColor(id)"></td>
+            <td id="negro" onclick="elegirColor(id)"></td>
+            <td id="blanco" onclick="elegirColor(id)"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p id="colorSelected">&nbsp;</p>
+
+    <div class="tab-container">
+      <table class="tab" id="tabla"></table>
+    </div>
+    <br /><br /><br /><br />
+  </body>
+</html>

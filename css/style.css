@@ -1,0 +1,118 @@
+/*pagina de inicio*/
+
+body{
+
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffffe2;
+}
+
+p, h2{
+	text-align: center;
+}
+
+.formulario {
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+	height: 310px;
+	align-items: center;
+	justify-content: center;
+	background-color: #FEF5E7;
+	-webkit-box-shadow: inset 1px 1px 32px 0px rgba(255,79,79,1);
+	-moz-box-shadow: inset 1px 1px 32px 0px rgba(255,79,79,1);
+	box-shadow: inset 1px 1px 32px 0px rgba(255,79,79,1);
+}
+
+
+#error {
+	display: flex;
+	width: 500px;
+    height: 100px;
+	margin: 0 auto;
+	display: table;
+}
+
+.wrong, .wrong2 {
+	height: 20px;
+	background-color: red;
+	text-align: center;
+	display: table-cell;
+   	color: white;
+	display: block;
+}
+
+/* pagina del juego */
+table, tr, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: #ffffff;
+  }
+
+.tab-container{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+  .tab td{
+	width: 20px;
+	height: 20px;
+  }
+
+  .chooseColor{
+	justify-content: center;	
+	width: 600px;
+	height: 20px;
+
+  }
+
+  #rojo{
+	background-color: #FF0100;
+  }
+
+  #amarillo{
+	background-color: yellow;
+  }
+
+  #verde{
+	background-color: #32CD32;
+  }
+
+  #azul{
+	background-color: #03BFFF;
+  }
+
+  #amarillo{
+	background-color: #FEFF00;
+  }
+
+  #rosa{
+	background-color:#FF7BB7;
+	}
+
+  #marron{
+	background-color:#BA4A00;
+  }
+
+  #negro{
+	background-color:#000000;
+  }
+
+  #gris{
+	background-color:#72756C;
+  }
+
+  #blanco{
+	background-color: white;
+  }
+
+  #naranja{
+	background-color: #F39C12;
+  }
+
+  #violeta{
+	background-color: #A569BD;
+  }
+
+
+  
